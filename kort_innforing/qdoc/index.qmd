@@ -1,0 +1,6 @@
+---
+title: "Quarto dokumenter"
+---
+
+-   Enkelt Quarto dokument (presentatsjon)
+    -   [Enkelt Quarto dokument](qdoc.qmd) (dokument)

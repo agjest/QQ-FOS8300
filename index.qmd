@@ -1,8 +1,8 @@
 ---
-title: "QQ-FOS8300"
+title: "The whole game"
 ---
 
-This is a Quarto website.
+The whole game
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 

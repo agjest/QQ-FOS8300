@@ -2,12 +2,13 @@ project:
   type: website
 
 website:
-  title: "QQ-FOS8300"
+  title: "FØS8300"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: FØS8300
+      - href: kort_innforing/index.qmd
+        text: Kort innføring
 
 format:
   html:

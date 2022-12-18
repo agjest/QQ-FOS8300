@@ -1,0 +1,45 @@
+---
+title: "Quarto dokument"
+format: 
+  html:  default
+  pdf:   default
+  docx:  default
+execute: 
+  eval: true
+  echo: true
+---
+
+## Overskrift
+
+Vanlig brødtekst før vi har en «code chunck»
+
+```{r}
+#| label: enkel_sum
+2 + 2
+```
+
+og forsetter med en ny der vi definerer en variabel.
+
+```{r}
+#| label: definerer_x
+x <- 3 + 3 + log(10)
+```
+
+Henter inn et eksempel datasett:
+
+```{r}
+#| label: henter_mtcars
+data(mtcars)
+```
+
+Sjekker toppen av `mtcars`
+
+```{r}
+#| label: fem_første_mtcars
+head(mtcars, n = 5)
+```
+
+Det vi har definert dukker opp i **Environment** fanen i øvre høyre hjørne.
+Se figur @fig-env.
+
+![Objekter definert i gjeldene «namespace».](kort_innforing/qdoc/Env.png){#fig-env}

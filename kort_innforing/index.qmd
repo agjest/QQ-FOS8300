@@ -1,0 +1,24 @@
+---
+title: "Kort innføring"
+---
+
+Denne bolken vil gi en innføring i hele prosessen i «Data Science» fra innhenting av rådata, transformasjon av rådata til «tidy» format og presentasjon av resultater via grafikk, tabeller og tekst.
+Alt gjort reproduserbart i et Quarto dokument og med støtte i et distribuert versjonskontrollsystem (git/github).
+
+1.  [Quarto dokumenter](qdoc/index.qmd); pensum: ([kap. 30 - 31 i r4ds 2. utg.](https://r4ds.hadley.nz/communicate.html))
+2.  Arbeidsflyt 1
+    i.  [Quarto](af/af1.qmd); pensum: [(kap. 32 i r4ds 2. utg.)](https://r4ds.hadley.nz/quarto-workflow.html)
+3.  Data visualisering
+4.  Arbeidsflyt 2 og 3
+    i.  Grunnleggende
+    ii. «Pipes»
+5.  Data transformasjon
+6.  «Tidy» data
+7.  Arbeidsflyt 4
+8.  Import av data
+    i.  Fra tekstfil
+    ii. Fra Excel regneark
+    iii. Via API
+9.  Arbeidsflyt 5 og 6
+    i.  Prosjekter
+    ii. Hjelp
